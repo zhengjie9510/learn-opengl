@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\1.getting_started\6.3.coordinate_systems_multiple\coordinate_systems_multiple.cpp">
+    <ClCompile Include="src\1.getting_started\3.2.shaders_interpolation\3.2.shaders_interpolation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
