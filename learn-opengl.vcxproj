@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\1.getting_started\3.2.shaders_interpolation\3.2.shaders_interpolation.cpp" />
+    <ClCompile Include="src\1.getting_started\7.3.camera_mouse_zoom\camera_mouse_zoom.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
