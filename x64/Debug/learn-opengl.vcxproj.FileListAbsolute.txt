@@ -1,1 +1,2 @@
 D:\Documents\GitHub\Z-Personal\learn-opengl\x64\Debug\learn-opengl.exe
+D:\Documents\GitHub\learn-opengl\x64\Debug\learn-opengl.exe
