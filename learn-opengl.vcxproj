@@ -134,7 +134,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\2.lighting\5.2.light_casters_point\light_casters_point.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
