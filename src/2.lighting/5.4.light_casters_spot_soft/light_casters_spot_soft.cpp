@@ -207,9 +207,7 @@ int main()
 		lightingShader.setFloat("light.linear", 0.09f);
 		lightingShader.setFloat("light.quadratic", 0.032f);
 
-		// material properties
-		lightingShader.setVec3("material.specular", 0.5f, 0.5f, 0.5f);
-		lightingShader.setFloat("material.shininess", 32.0f);
+
 
 		// view/projection transformations
 		glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
@@ -226,6 +224,8 @@ int main()
 		glActiveTexture(GL_TEXTURE1);
 		glBindTexture(GL_TEXTURE_2D, specularMap);
 		lightingShader.setInt("material.specular", 1);
+		// material properties
+		lightingShader.setFloat("material.shininess", 32.0f);
 
 		// world transformation
 		glm::mat4 model = glm::mat4(1.0f);;
