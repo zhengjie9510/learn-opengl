@@ -18,15 +18,30 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\3.model_loading\1.model_loading\model_loading.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dependencies\learnopengl\camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\learnopengl\model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\learnopengl\shader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\learnopengl\shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="dependencies\learnopengl\shader_s.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="dependencies\learnopengl\stb_image.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="dependencies\learnopengl\shader_m.h">
+    <ClInclude Include="dependencies\learnopengl\mesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
