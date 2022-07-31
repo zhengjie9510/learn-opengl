@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\3.model_loading\1.model_loading\model_loading.cpp">
+    <ClCompile Include="src\4.advanced_opengl\2.stencil_testing\stencil_testing.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,5 +44,8 @@
     <ClInclude Include="dependencies\learnopengl\mesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\2.stencil_testing\2.stencil_single_color.frag" />
   </ItemGroup>
 </Project>

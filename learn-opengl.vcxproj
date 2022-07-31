@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\3.model_loading\1.model_loading\model_loading.cpp" />
+    <ClCompile Include="src\4.advanced_opengl\2.stencil_testing\stencil_testing.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -144,6 +144,9 @@
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\2.stencil_testing\2.stencil_single_color.frag" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
