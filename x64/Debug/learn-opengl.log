@@ -1,3 +1,2 @@
-﻿  blending_sorted.cpp
-LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+﻿  model_loading.cpp
   learn-opengl.vcxproj -> D:\Documents\GitHub\learn-opengl\x64\Debug\learn-opengl.exe

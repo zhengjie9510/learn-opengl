@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\4.advanced_opengl\3.2.blending_sort\blending_sorted.cpp">
+    <ClCompile Include="src\3.model_loading\1.model_loading\model_loading.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

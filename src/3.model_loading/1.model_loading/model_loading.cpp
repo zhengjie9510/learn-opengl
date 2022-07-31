@@ -59,7 +59,7 @@ int main()
 	glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 	glfwSetCursorPosCallback(window, mouse_callback);
 	glfwSetScrollCallback(window, scroll_callback);
-	glfwSetMouseButtonCallback(window,mouse_button_callback);
+	glfwSetMouseButtonCallback(window, mouse_button_callback);
 
 	// tell GLFW to capture our mouse
 	//glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
@@ -122,7 +122,7 @@ int main()
 		ourShader.setFloat("shininess", 2.0f);
 		// light properties
 		// directional light
-		ourShader.setVec3("dirLight.direction", -0.2f, -0.0f, -0.1f);
+		ourShader.setVec3("dirLight.direction", -0.2f, -0.0f, -0.2f);
 		ourShader.setVec3("dirLight.ambient", 0.05f, 0.05f, 0.05f);
 		ourShader.setVec3("dirLight.diffuse", 0.4f, 0.4f, 0.4f);
 		ourShader.setVec3("dirLight.specular", 0.5f, 0.5f, 0.5f);
