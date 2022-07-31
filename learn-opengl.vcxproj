@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\4.advanced_opengl\2.stencil_testing\stencil_testing.cpp" />
+    <ClCompile Include="src\4.advanced_opengl\3.1.blending_discard\blending_discard.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
