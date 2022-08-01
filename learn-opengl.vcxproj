@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\4.advanced_opengl\5.1.framebuffers\depth_testing.cpp" />
+    <ClCompile Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\framebuffers.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -144,6 +144,12 @@
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers.frag" />
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers.vert" />
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers_screen.frag" />
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers_screen.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

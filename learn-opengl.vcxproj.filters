@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\4.advanced_opengl\5.1.framebuffers\depth_testing.cpp">
+    <ClCompile Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\framebuffers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,5 +44,11 @@
     <ClInclude Include="dependencies\learnopengl\mesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers.frag" />
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers.vert" />
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers_screen.frag" />
+    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers_screen.vert" />
   </ItemGroup>
 </Project>
