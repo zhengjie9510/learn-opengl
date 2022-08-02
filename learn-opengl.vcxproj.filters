@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\framebuffers.cpp">
+    <ClCompile Include="src\4.advanced_opengl\6.2.cubemaps_environment_mapping\cubemaps_environment_mapping.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,9 +46,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers.frag" />
-    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers.vert" />
-    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers_screen.frag" />
-    <None Include="src\4.advanced_opengl\5.2.framebuffers_exercise1\5.2.framebuffers_screen.vert" />
+    <None Include="src\4.advanced_opengl\6.2.cubemaps_environment_mapping\6.2.cubemaps.frag" />
+    <None Include="src\4.advanced_opengl\6.2.cubemaps_environment_mapping\6.2.cubemaps.vert" />
+    <None Include="src\4.advanced_opengl\6.2.cubemaps_environment_mapping\6.2.skybox.frag" />
+    <None Include="src\4.advanced_opengl\6.2.cubemaps_environment_mapping\6.2.skybox.vert" />
   </ItemGroup>
 </Project>
