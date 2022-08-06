@@ -1,3 +1,2 @@
-﻿  cubemaps_environment_mapping.cpp
-LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
-  learn-opengl.vcxproj -> D:\Documents\GitHub\Z-Personal\learn-opengl\x64\Debug\learn-opengl.exe
+﻿  advanced_glsl_ubo.cpp
+  learn-opengl.vcxproj -> D:\Documents\GitHub\learn-opengl\x64\Debug\learn-opengl.exe

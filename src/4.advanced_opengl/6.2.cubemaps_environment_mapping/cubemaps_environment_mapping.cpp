@@ -82,7 +82,7 @@ int main()
 	// -------------------------
 	Shader shader("./src/4.advanced_opengl/6.2.cubemaps_environment_mapping/6.2.cubemaps.vert", "./src/4.advanced_opengl/6.2.cubemaps_environment_mapping/6.2.cubemaps.frag");
 	Shader skyboxShader("./src/4.advanced_opengl/6.2.cubemaps_environment_mapping/6.2.skybox.vert", "./src/4.advanced_opengl/6.2.cubemaps_environment_mapping/6.2.skybox.frag");
-	
+
 	// set up vertex data (and buffer(s)) and configure vertex attributes
 	// ------------------------------------------------------------------
 	float cubeVertices[] = {
@@ -186,14 +186,14 @@ int main()
 	glVertexAttribPointer(1, 3, GL_FLOAT, GL_FALSE, 6 * sizeof(float), (void*)(3 * sizeof(float)));
 	// skybox VAO
 	unsigned int skyboxVAO, skyboxVBO;
-	glGenVertexArrays(1,&skyboxVAO);
+	glGenVertexArrays(1, &skyboxVAO);
 	glBindVertexArray(skyboxVAO);
-	glGenBuffers(1,&skyboxVBO);
-	glBindBuffer(GL_ARRAY_BUFFER,skyboxVBO);
-	glBufferData(GL_ARRAY_BUFFER,sizeof(skyboxVertices),skyboxVertices,GL_STATIC_DRAW);
-	glVertexAttribPointer(0,3,GL_FLOAT,GL_FALSE,3*sizeof(float),(void *)0);
+	glGenBuffers(1, &skyboxVBO);
+	glBindBuffer(GL_ARRAY_BUFFER, skyboxVBO);
+	glBufferData(GL_ARRAY_BUFFER, sizeof(skyboxVertices), skyboxVertices, GL_STATIC_DRAW);
+	glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * sizeof(float), (void*)0);
 	glEnableVertexAttribArray(0);
-	
+
 	// load textures
 	// -------------
 	vector<std::string> faces
@@ -233,7 +233,7 @@ int main()
 
 		// draw scene as normal
 		glm::mat4 model = glm::mat4(1.0f);
-		model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f),glm::vec3(1.0,1.0,0.0));
+		model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(1.0, 1.0, 0.0));
 		glm::mat4 view;
 		glm::mat4 projection = glm::perspective(glm::radians(camera.Zoom), (float)SCR_WIDTH / (float)SCR_HEIGHT, 0.1f, 100.0f);
 		glDepthFunc(GL_LEQUAL);  // change depth function so depth test passes when values are equal to depth buffer's content
@@ -279,7 +279,7 @@ int main()
 
 // process all input : query GLFW whether relevant keys are pressed / released this frame and react accordingly
 // ---------------------------------------------------------------------------------------------------------
-void processInput(GLFWwindow * window)
+void processInput(GLFWwindow* window)
 {
 	if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS)
 		glfwSetWindowShouldClose(window, true);
