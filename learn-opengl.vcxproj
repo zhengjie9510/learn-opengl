@@ -145,6 +145,11 @@
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.frag" />
+    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.geom" />
+    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.vert" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

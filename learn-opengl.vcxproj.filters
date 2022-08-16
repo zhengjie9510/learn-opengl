@@ -45,4 +45,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.vert" />
+    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.frag" />
+    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.geom" />
+  </ItemGroup>
 </Project>

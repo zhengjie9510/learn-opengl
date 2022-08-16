@@ -52,10 +52,11 @@ int main()
 	// configure global opengl state
 	// -----------------------------
 	glEnable(GL_DEPTH_TEST);
+	glEnable(GL_PROGRAM_POINT_SIZE);
 
 	// build and compile shaders
 	// -------------------------
-	Shader shader("9.1.geometry_shader.vs", "9.1.geometry_shader.fs", "9.1.geometry_shader.gs");
+	Shader shader("./src/4.advanced_opengl/9.1.geometry_shader_houses/9.1.geometry_shader.vert", "./src/4.advanced_opengl/9.1.geometry_shader_houses/9.1.geometry_shader.frag", "./src/4.advanced_opengl/9.1.geometry_shader_houses/9.1.geometry_shader.geom");
 
 	// set up vertex data (and buffer(s)) and configure vertex attributes
 	// ------------------------------------------------------------------
