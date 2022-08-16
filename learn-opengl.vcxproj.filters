@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\4.advanced_opengl\9.1.geometry_shader_houses\geometry_shader_houses.cpp">
+    <ClCompile Include="src\4.advanced_opengl\9.3.geometry_shader_normals\normal_visualization.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,10 +44,5 @@
     <ClInclude Include="dependencies\learnopengl\mesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.vert" />
-    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.frag" />
-    <None Include="src\4.advanced_opengl\9.1.geometry_shader_houses\9.1.geometry_shader.geom" />
   </ItemGroup>
 </Project>

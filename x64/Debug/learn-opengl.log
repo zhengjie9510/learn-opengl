@@ -1,3 +1,4 @@
-﻿  geometry_shader_houses.cpp
+﻿  normal_visualization.cpp
+  LINK : 没有找到 D:\Documents\GitHub\Z-Personal\learn-opengl\x64\Debug\learn-opengl.exe 或上一个增量链接没有生成它；正在执行完全链接
 LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   learn-opengl.vcxproj -> D:\Documents\GitHub\Z-Personal\learn-opengl\x64\Debug\learn-opengl.exe
