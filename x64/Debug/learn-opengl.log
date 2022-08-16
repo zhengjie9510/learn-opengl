@@ -1,5 +1,5 @@
-﻿  instancing_quads.cpp
-D:\Documents\GitHub\Z-Personal\learn-opengl\src\4.advanced_opengl\10.1.instancing_quads\instancing_quads.cpp(94,19): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
-D:\Documents\GitHub\Z-Personal\learn-opengl\src\4.advanced_opengl\10.1.instancing_quads\instancing_quads.cpp(109,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-D:\Documents\GitHub\Z-Personal\learn-opengl\src\4.advanced_opengl\10.1.instancing_quads\instancing_quads.cpp(112,18): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
+﻿  asteroids.cpp
+D:\Documents\GitHub\Z-Personal\learn-opengl\src\4.advanced_opengl\10.2.asteroids\asteroids.cpp(94,19): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+D:\Documents\GitHub\Z-Personal\learn-opengl\src\4.advanced_opengl\10.2.asteroids\asteroids.cpp(109,15): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+D:\Documents\GitHub\Z-Personal\learn-opengl\src\4.advanced_opengl\10.2.asteroids\asteroids.cpp(112,18): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
   learn-opengl.vcxproj -> D:\Documents\GitHub\Z-Personal\learn-opengl\x64\Debug\learn-opengl.exe
