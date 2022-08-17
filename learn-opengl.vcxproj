@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
+    <ClCompile Include="src\4.advanced_opengl\11.1.anti_aliasing_multisampling\anti_aliasing_multisampling.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -143,6 +144,10 @@
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\4.advanced_opengl\11.1.anti_aliasing_multisampling\11.1.anti_aliasing.frag" />
+    <None Include="src\4.advanced_opengl\11.1.anti_aliasing_multisampling\11.1.anti_aliasing.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -90,7 +90,7 @@ int main()
 
 	// generate a large list of semi-random model transformation matrices
 	// ------------------------------------------------------------------
-	unsigned int amount = 10000;
+	unsigned int amount = 100000;
 	glm::mat4* modelMatrices;
 	modelMatrices = new glm::mat4[amount];
 	srand(static_cast<unsigned int>(glfwGetTime())); // initialize random seed
@@ -120,12 +120,14 @@ int main()
 		// 4. now add to list of matrices
 		modelMatrices[i] = model;
 	}
+
+	std::cout << modelMatrices << " " << &modelMatrices[0] << std::endl;
 	// configure instanced array
 	// -------------------------
 	unsigned int buffer;
 	glGenBuffers(1, &buffer);
 	glBindBuffer(GL_ARRAY_BUFFER, buffer);
-	glBufferData(GL_ARRAY_BUFFER, amount * sizeof(glm::mat4), &modelMatrices[0], GL_STATIC_DRAW);
+	glBufferData(GL_ARRAY_BUFFER, amount * sizeof(glm::mat4), modelMatrices, GL_STATIC_DRAW);
 
 	// set transformation matrices as an instance vertex attribute (with divisor 1)
 	// note: we're cheating a little by taking the, now publicly declared, VAO of the model's mesh(es) and adding new vertexAttribPointers
