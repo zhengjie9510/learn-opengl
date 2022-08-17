@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\4.advanced_opengl\11.1.anti_aliasing_multisampling\anti_aliasing_multisampling.cpp">
+    <ClCompile Include="src\4.advanced_opengl\11.2.anti_aliasing_offscreen\anti_aliasing_offscreen.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,7 +46,9 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\4.advanced_opengl\11.1.anti_aliasing_multisampling\11.1.anti_aliasing.frag" />
-    <None Include="src\4.advanced_opengl\11.1.anti_aliasing_multisampling\11.1.anti_aliasing.vert" />
+    <None Include="src\4.advanced_opengl\11.2.anti_aliasing_offscreen\11.2.anti_aliasing.frag" />
+    <None Include="src\4.advanced_opengl\11.2.anti_aliasing_offscreen\11.2.anti_aliasing.vert" />
+    <None Include="src\4.advanced_opengl\11.2.anti_aliasing_offscreen\11.2.aa_post.vert" />
+    <None Include="src\4.advanced_opengl\11.2.anti_aliasing_offscreen\11.2.aa_post.frag" />
   </ItemGroup>
 </Project>
