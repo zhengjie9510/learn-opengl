@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\5.advanced_lighting\1.advanced_lighting\advanced_lighting.cpp">
+    <ClCompile Include="src\5.advanced_lighting\2.gamma_correction\gamma_correction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,7 +46,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\5.advanced_lighting\1.advanced_lighting\1.advanced_lighting.vert" />
-    <None Include="src\5.advanced_lighting\1.advanced_lighting\1.advanced_lighting.frag" />
+    <None Include="src\5.advanced_lighting\2.gamma_correction\2.gamma_correction.vert" />
+    <None Include="src\5.advanced_lighting\2.gamma_correction\2.gamma_correction.frag" />
   </ItemGroup>
 </Project>

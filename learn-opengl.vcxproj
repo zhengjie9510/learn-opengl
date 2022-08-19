@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\5.advanced_lighting\1.advanced_lighting\advanced_lighting.cpp" />
+    <ClCompile Include="src\5.advanced_lighting\2.gamma_correction\gamma_correction.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -146,8 +146,8 @@
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\5.advanced_lighting\1.advanced_lighting\1.advanced_lighting.frag" />
-    <None Include="src\5.advanced_lighting\1.advanced_lighting\1.advanced_lighting.vert" />
+    <None Include="src\5.advanced_lighting\2.gamma_correction\2.gamma_correction.frag" />
+    <None Include="src\5.advanced_lighting\2.gamma_correction\2.gamma_correction.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
