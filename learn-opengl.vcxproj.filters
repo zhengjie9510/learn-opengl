@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\5.advanced_lighting\4.normal_mapping\normal_mapping.cpp">
+    <ClCompile Include="src\5.advanced_lighting\6.hdr\hdr.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,5 +44,11 @@
     <ClInclude Include="dependencies\learnopengl\mesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\5.advanced_lighting\6.hdr\6.hdr.frag" />
+    <None Include="src\5.advanced_lighting\6.hdr\6.hdr.vert" />
+    <None Include="src\5.advanced_lighting\6.hdr\6.lighting.frag" />
+    <None Include="src\5.advanced_lighting\6.hdr\6.lighting.vert" />
   </ItemGroup>
 </Project>
