@@ -145,10 +145,6 @@
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="src\5.advanced_lighting\4.normal_mapping\4.normal_mapping.frag" />
-    <None Include="src\5.advanced_lighting\4.normal_mapping\4.normal_mapping.vert" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
