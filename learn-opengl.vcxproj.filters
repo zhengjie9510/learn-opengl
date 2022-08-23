@@ -46,10 +46,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\5.advanced_lighting\7.bloom\6.hdr.frag" />
-    <None Include="src\5.advanced_lighting\7.bloom\6.hdr.vert" />
+    <None Include="src\5.advanced_lighting\7.bloom\7.blur.frag" />
+    <None Include="src\5.advanced_lighting\7.bloom\7.blur.vert" />
     <None Include="src\5.advanced_lighting\7.bloom\7.bloom.frag" />
     <None Include="src\5.advanced_lighting\7.bloom\7.bloom.vert" />
     <None Include="src\5.advanced_lighting\7.bloom\7.light_box.frag" />
+    <None Include="src\5.advanced_lighting\7.bloom\7.bloom_final.frag" />
   </ItemGroup>
 </Project>
