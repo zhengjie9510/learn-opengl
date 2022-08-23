@@ -134,7 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\5.advanced_lighting\6.hdr\hdr.cpp" />
+    <ClCompile Include="src\5.advanced_lighting\7.bloom\bloom.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -146,10 +146,11 @@
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\5.advanced_lighting\6.hdr\6.hdr.frag" />
-    <None Include="src\5.advanced_lighting\6.hdr\6.hdr.vert" />
-    <None Include="src\5.advanced_lighting\6.hdr\6.lighting.frag" />
-    <None Include="src\5.advanced_lighting\6.hdr\6.lighting.vert" />
+    <None Include="src\5.advanced_lighting\7.bloom\6.hdr.frag" />
+    <None Include="src\5.advanced_lighting\7.bloom\6.hdr.vert" />
+    <None Include="src\5.advanced_lighting\7.bloom\7.bloom.frag" />
+    <None Include="src\5.advanced_lighting\7.bloom\7.bloom.vert" />
+    <None Include="src\5.advanced_lighting\7.bloom\7.light_box.frag" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
