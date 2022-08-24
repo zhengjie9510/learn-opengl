@@ -105,8 +105,8 @@ int main()
 	// configure g-buffer framebuffer
 	// ------------------------------
 	unsigned int gBuffer;
-	glGenFramebuffers(1,&gBuffer);
-	glBindFramebuffer(GL_FRAMEBUFFER,gBuffer);
+	glGenFramebuffers(1, &gBuffer);
+	glBindFramebuffer(GL_FRAMEBUFFER, gBuffer);
 	unsigned int gPosition, gNormal, gColorSpec;
 	// - position color buffer
 	glGenTextures(1, &gPosition);
@@ -232,7 +232,12 @@ int main()
 		// finally render quad
 		renderQuad();
 
-		glClear(GL_DEPTH_BUFFER_BIT);
+		// 2.5. copy content of geometry's depth buffer to default framebuffer's depth buffer
+		// ----------------------------------------------------------------------------------
+		glBindFramebuffer(GL_READ_FRAMEBUFFER, gBuffer);
+		glBindFramebuffer(GL_DRAW_FRAMEBUFFER, 0);
+		glBlitFramebuffer(0, 0, SCR_WIDTH, SCR_HEIGHT, 0, 0, SCR_WIDTH, SCR_HEIGHT, GL_DEPTH_BUFFER_BIT, GL_NEAREST);
+		glBindFramebuffer(GL_FRAMEBUFFER, 0);
 
 		// 3. render lights on top of scene
 		// --------------------------------
