@@ -134,7 +134,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
-    <ClCompile Include="src\5.advanced_lighting\8.1.deferred_shading\deferred_shading.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -144,14 +143,6 @@
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="src\5.advanced_lighting\8.1.deferred_shading\8.1.g_buffer.frag" />
-    <None Include="src\5.advanced_lighting\8.1.deferred_shading\8.1.g_buffer.vert" />
-    <None Include="src\5.advanced_lighting\8.1.deferred_shading\8.1.deferred_light_box.frag" />
-    <None Include="src\5.advanced_lighting\8.1.deferred_shading\8.1.deferred_shading.frag" />
-    <None Include="src\5.advanced_lighting\8.1.deferred_shading\8.1.deferred_shading.vert" />
-    <None Include="src\5.advanced_lighting\8.1.deferred_shading\8.1.deferred_light_box.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

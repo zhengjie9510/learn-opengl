@@ -229,6 +229,7 @@ int main()
 			shaderLightingPass.setFloat("lights[" + std::to_string(i) + "].Linear", linear);
 			shaderLightingPass.setFloat("lights[" + std::to_string(i) + "].Quadratic", quadratic);
 		}
+		shaderLightingPass.setVec3("viewPos", camera.Position);
 		// finally render quad
 		renderQuad();
 
