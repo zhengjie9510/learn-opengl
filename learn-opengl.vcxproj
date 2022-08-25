@@ -134,6 +134,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="dependencies\glad\src\glad.c" />
+    <ClCompile Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\shadow_mapping_base.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dependencies\learnopengl\camera.h" />
@@ -143,6 +144,14 @@
     <ClInclude Include="dependencies\learnopengl\shader_m.h" />
     <ClInclude Include="dependencies\learnopengl\shader_s.h" />
     <ClInclude Include="dependencies\learnopengl\stb_image.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\3.1.2.debug_quad.frag" />
+    <None Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\3.1.2.debug_quad.vert" />
+    <None Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\3.1.2.shadow_mapping.frag" />
+    <None Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\3.1.2.shadow_mapping.vert" />
+    <None Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\3.1.2.shadow_mapping_depth.frag" />
+    <None Include="src\5.advanced_lighting\3.1.2.shadow_mapping_base\3.1.2.shadow_mapping_depth.vert" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
