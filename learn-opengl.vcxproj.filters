@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\6.pbr\1.1.lighting\lighting.cpp">
+    <ClCompile Include="src\6.pbr\1.2.lighting_textured\lighting_textured.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,7 +46,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\6.pbr\1.1.lighting\1.1.pbr.frag" />
-    <None Include="src\6.pbr\1.1.lighting\1.1.pbr.vert" />
+    <None Include="src\6.pbr\1.2.lighting_textured\1.2.pbr.frag" />
+    <None Include="src\6.pbr\1.2.lighting_textured\1.2.pbr.vert" />
   </ItemGroup>
 </Project>
