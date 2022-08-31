@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.shadow_mapping.cpp">
+    <ClCompile Include="src\6.pbr\1.1.lighting\lighting.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,11 +46,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.debug_quad.frag" />
-    <None Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.debug_quad.vert" />
-    <None Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.shadow_mapping.frag" />
-    <None Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.shadow_mapping.vert" />
-    <None Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.shadow_mapping_depth.frag" />
-    <None Include="src\5.advanced_lighting\3.1.3.shadow_mapping\3.1.3.shadow_mapping_depth.vert" />
+    <None Include="src\6.pbr\1.1.lighting\1.1.pbr.frag" />
+    <None Include="src\6.pbr\1.1.lighting\1.1.pbr.vert" />
   </ItemGroup>
 </Project>
