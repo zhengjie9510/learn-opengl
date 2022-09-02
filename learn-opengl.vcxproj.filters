@@ -18,7 +18,7 @@
     <ClCompile Include="dependencies\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\ibl_irradiance_conversion.cpp">
+    <ClCompile Include="src\6.pbr\2.1.2.ibl_irradiance\ibl_irradiance_conversion.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -46,11 +46,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\2.1.1.pbr.frag" />
-    <None Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\2.1.1.pbr.vert" />
-    <None Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\2.1.1.equirectangular_to_cubemap.frag" />
-    <None Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\2.1.1.cubemap.vert" />
-    <None Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\2.1.1.background.vert" />
-    <None Include="src\6.pbr\2.1.1.ibl_irradiance_conversion\2.1.1.background.frag" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.background.frag" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.background.vert" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.cubemap.vert" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.equirectangular_to_cubemap.frag" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.irradiance_convolution.frag" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.pbr.frag" />
+    <None Include="src\6.pbr\2.1.2.ibl_irradiance\2.1.2.pbr.vert" />
   </ItemGroup>
 </Project>
